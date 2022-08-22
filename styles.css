@@ -1,40 +1,44 @@
+@keyframes bounce {
+   0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+   40% {transform: translateY(-30px);} 
+   60% {transform: translateY(-15px);} 
+} 
+
+@keyframes body {
+  0%   {background: rgb(52,2,235);
+background: radial-gradient(circle, rgba(52,2,235,1) 0%, rgba(16,0,112,1) 100%);}
+  25%  {background: rgb(35,0,163);
+background: radial-gradient(circle, rgba(35,0,163,1) 0%, rgba(16,0,112,1) 100%);}
+  50%  {background: rgb(27,0,125);
+background: radial-gradient(circle, rgba(27,0,125,1) 0%, rgba(16,0,112,1) 100%);}
+  75%  {background: rgb(19,0,89);
+background: radial-gradient(circle, rgba(19,0,89,1) 0%, rgba(16,0,112,1) 100%);}
+  100% {background: rgb(9,0,40);
+background: radial-gradient(circle, rgba(9,0,40,1) 0%, rgba(16,0,112,1) 100%);}
+}
+
+
   p {
 font-family: montserrat;
 color: white;
   }
+
 h1 {
 font-family: arial;
 color: white;
+ animation-name: bounce;
+  animation-duration: 4s;
   }
 
 body {
-background-image: url("https://i.postimg.cc/T1Zp9yB0/Zrzut-ekranu-316.png");
+ width: 100px;
+  height: 100px;
+  background-color: rgb(55,0,255);
+  animation-name: body;
+  animation-duration: 6s;
 }
 
 
-.myButton {
-	box-shadow:inset 0px 0px 15px 3px #23395e;
-	background:linear-gradient(to bottom, #2e466e 5%, #415989 100%);
-	background-color:#2e466e;
-	border-radius:17px;
-	border:1px solid #1f2f47;
-	display:inline-block;
-	cursor:pointer;
-	color:#ffffff;
-	font-family:Arial;
-	font-size:15px;
-	padding:12px 40px;
-	text-decoration:none;
-	text-shadow:0px 1px 0px #263666;
-}
-.myButton:hover {
-	background:linear-gradient(to bottom, #415989 5%, #2e466e 100%);
-	background-color:#415989;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
-}
 
 .mybutton2 {
 	box-shadow: 0px 10px 14px -7px #276873;
