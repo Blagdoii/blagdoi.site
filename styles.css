@@ -7,9 +7,14 @@ font-family: arial;
 color: white;
   }
 
-img {
+.bg-img {
   filter: blur(4px);
   -webkit-filter: blur(4px);
+background-image: url("https://i.postimg.cc/28PtmhVC/Zrzut-ekranu-316.png")
+  height: 100%;
+background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 
