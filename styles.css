@@ -7,24 +7,10 @@ font-family: arial;
 color: white;
   }
 
-.bg-img {
-  filter: blur(4px);
-  -webkit-filter: blur(4px);
-background-image: url("https://i.postimg.cc/28PtmhVC/Zrzut-ekranu-316.png")
-  height: 100%;
-background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-background-color: gray;
+body {
+background-image: url("https://i.postimg.cc/T1Zp9yB0/Zrzut-ekranu-316.png");
 }
 
-body, html {
-  height: 100%;
-}
-
-* {
-  box-sizing: border-box;
-}
 
 .myButton {
 	box-shadow:inset 0px 0px 15px 3px #23395e;
