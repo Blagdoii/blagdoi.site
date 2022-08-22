@@ -4,19 +4,6 @@
    60% {transform: translateY(-15px);} 
 } 
 
-@keyframes body {
-  0%   {background: rgb(52,2,235);
-background: radial-gradient(circle, rgba(52,2,235,1) 0%, rgba(16,0,112,1) 100%);}
-  25%  {background: rgb(35,0,163);
-background: radial-gradient(circle, rgba(35,0,163,1) 0%, rgba(16,0,112,1) 100%);}
-  50%  {background: rgb(27,0,125);
-background: radial-gradient(circle, rgba(27,0,125,1) 0%, rgba(16,0,112,1) 100%);}
-  75%  {background: rgb(19,0,89);
-background: radial-gradient(circle, rgba(19,0,89,1) 0%, rgba(16,0,112,1) 100%);}
-  100% {background: rgb(9,0,40);
-background: radial-gradient(circle, rgba(9,0,40,1) 0%, rgba(16,0,112,1) 100%);}
-}
-
 
   p {
 font-family: montserrat;
@@ -27,16 +14,12 @@ h1 {
 font-family: arial;
 color: white;
  animation-name: bounce;
-  animation-duration: 4s;
+  animation-duration: 20s;
   }
 
 body {
- width: 100px;
-  height: 100px;
-  background-color: rgb(55,0,255);
-  animation-name: body;
-  animation-duration: 6s;
-text-align: center;
+background: rgb(14,0,66);
+background: radial-gradient(circle, rgba(14,0,66,1) 0%, rgba(23,0,162,1) 100%);
 }
 
 
