@@ -21,7 +21,6 @@ background: radial-gradient(circle, rgba(9,0,40,1) 0%, rgba(16,0,112,1) 100%);}
   p {
 font-family: montserrat;
 color: white;
-text-align: center;
   }
 
 h1 {
@@ -29,7 +28,6 @@ font-family: arial;
 color: white;
  animation-name: bounce;
   animation-duration: 4s;
-text-align: center;
   }
 
 body {
@@ -38,6 +36,7 @@ body {
   background-color: rgb(55,0,255);
   animation-name: body;
   animation-duration: 6s;
+text-align: center;
 }
 
 
@@ -56,20 +55,23 @@ body {
 	padding:13px 32px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #3d768a;
-text-align: center;
 }
 .mybutton2:hover {
 	background:linear-gradient(to bottom, #408c99 5%, #597db3 100%);
 	background-color:#408c99;
-text-align: center;
 }
 .mybutton2:active {
 	position:relative;
 	top:1px;
-	text-align: center;
 }
 
         
 div {
 text-align: center;
+}
+
+.center {
+text-align: center;
+margin-left: auto;
+    margin-right: auto;
 }
