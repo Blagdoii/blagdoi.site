@@ -17,6 +17,13 @@ background-position: center;
   background-size: cover;
 }
 
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
 
 .myButton {
 	box-shadow:inset 0px 0px 15px 3px #23395e;
