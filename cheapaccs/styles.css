@@ -2,6 +2,7 @@ p {
 font-family: Arial;
 font-size: 18px;
 color: white;
+text-align: center;
 }
 
 h1 {
@@ -10,6 +11,7 @@ font-size: 22px;
 color: white;
  animation-name: bounce;
   animation-duration: 20s;
+text-align: center;
 }
 
 body {
@@ -118,3 +120,7 @@ background-size: auto;
 .button2:hover::before {
  width: 100%;
 }
+
+a {
+text-align: center;
+} 
