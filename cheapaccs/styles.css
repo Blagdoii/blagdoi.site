@@ -32,7 +32,7 @@ background-size: auto;
  position: absolute;
  border: none;
  font-size: 14px;
- font-family: inherit;
+ font-family: Arial;
  color: #fff;
  width: 9em;
  height: 3em;
@@ -83,6 +83,7 @@ background-size: auto;
 
 /* From uiverse.io by @alexroumi */
 .button2 {
+font-family: Arial;
  padding: 15px 25px;
  border: unset;
  border-radius: 15px;
@@ -124,3 +125,7 @@ background-size: auto;
 a {
 text-align: center;
 } 
+
+div {
+text-align: center;
+}
