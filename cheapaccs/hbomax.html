@@ -17,58 +17,14 @@
 <div>
 <br>
 <br>
-  <h1> What is HBOMAX? </h1>
+  <h1> HBOMAX </h1>
 <br>
-<p> HBO Max is a stand-alone streaming platform that bundles all of HBO together with even more TV favorites, blockbuster movies, and new Max Originals for everyone.. </p>
+<p> Dla fanów WarnerBros Pictures. </p>
 <br>
-<div id="smart-button-container">
-      <div style="text-align: center;">
-        <div id="paypal-button-container"></div>
-      </div>
-    </div>
-  <script src="https://www.paypal.com/sdk/js?client-id=AREeCCov8SFq-LrplziJ9GwJecT5nRarceCXkunyVc3_evyj0Ba7P1qtRO0-imRidCaIokcO9A7fZ0Z6&enable-funding=venmo&currency=USD" data-sdk-integration-source="button-factory"></script>
-  <script>
-    function initPayPalButton() {
-      paypal.Buttons({
-        style: {
-          shape: 'rect',
-          color: 'gold',
-          layout: 'vertical',
-          label: 'paypal',
-          
-        },
-
-        createOrder: function(data, actions) {
-          return actions.order.create({
-            purchase_units: [{"description":"HBO MAX","amount":{"currency_code":"USD","value":2.16,"breakdown":{"item_total":{"currency_code":"USD","value":2.08},"shipping":{"currency_code":"USD","value":0},"tax_total":{"currency_code":"USD","value":0.08}}}}]
-          });
-        },
-
-        onApprove: function(data, actions) {
-          return actions.order.capture().then(function(orderData) {
-            
-            // Full available details
-            console.log('Capture result', orderData, JSON.stringify(orderData, null, 2));
-
-            // Show a success message within this page, e.g.
-            const element = document.getElementById('paypal-button-container');
-            element.innerHTML = '';
-            element.innerHTML = '<h3>Thank you for your payment!</h3>';
-
-            // Or go to another URL:  actions.redirect('thank_you.html');
-            
-          });
-        },
-
-        onError: function(err) {
-          console.log(err);
-        }
-      }).render('#paypal-button-container');
-    }
-    initPayPalButton();
-  </script>
+  <p> Już wkrótce uruchomimy sprzedaż masową, aktualnie aby zakupić przedmiot, musisz napisać do mlodykreska#0002 na discord </p>
+  <p> Przyjmujemy formy płatności: PayPal, BLIK, Przelew </p>
 <br>
-  <p>Final Price: 2.11$ - 3 months</p>
+  <p>Cena: 7zł</p>
 <br>
 <br>
 <br>
